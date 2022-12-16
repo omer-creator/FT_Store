@@ -54,8 +54,8 @@ class AdminController extends Controller
     }
     public function show_product()
     {
-        //$catagory = catagory::all();
-        return view('admin.show_product');
+        $product = product::all();
+        return view('admin.show_product', compact('product'));
     }
 
 }
