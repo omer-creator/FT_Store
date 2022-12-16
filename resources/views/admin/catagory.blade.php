@@ -56,7 +56,7 @@
                     <div class="div_center">
                         <h2 class="h2_font">Add Catagory<h2>
                                 <form>
-                                    <form action="url{{'/add_catagory'}}" method="post">
+                                    <form action="url{{'/add_catagory'}}" method="POST">
                                         @csrf
                                         <input class="input_color" type="text" name="catagory"
                                             placeholder="Write catagory name">
